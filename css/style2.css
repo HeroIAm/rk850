@@ -5,10 +5,27 @@
 }
 
 .inputs{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     padding: 50px;
+    color: #fff;
+}
+footer{
+    text-shadow: #000;
+    text-decoration: double;
+    color: #000;
+    text-align: center;
+}
+.separator{
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
 }
 *{
-    background-color: aqua;
+    background-color: #424242;
 }
+
+.content {
+    min-height: calc(100vh - 200px);
+  }
