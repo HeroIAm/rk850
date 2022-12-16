@@ -1,0 +1,14 @@
+.pf{
+    font-size: 30px;
+    text-align: center;
+    padding: 2px;
+}
+
+.inputs{
+    font-size: 15px;
+    text-align: center;
+    padding: 50px;
+}
+*{
+    background-color: aqua;
+}
