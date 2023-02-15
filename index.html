@@ -47,6 +47,19 @@
       font-family: CPMonoRus, Arial, sans-serif;
       width: 80px;
       height: 30px;
+      transition: background-color 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+    }
+    .header button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 30px white;
+  transition: background-color 1s ease, box-shadow 1s ease;
+     }
+     .header button:active {
+    background-color: gray;
+    box-shadow: 0 0 5px gray;
+    transform: translateY(2px);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
     .pi{
       font-family: CPMonoRus, Arial, sans-serif;
